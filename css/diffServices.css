@@ -1,0 +1,12 @@
+body{
+    background-image: url(../img/paymentFormImg.jpg);
+   
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+.heading1{
+    width: 81%;
+    margin-left: 10%;
+}

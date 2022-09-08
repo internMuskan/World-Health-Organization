@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 32px;
+  top: 20px;
+
+}
+
+
+
+.left div {
+  color: black;
+}
+
+.mid {
+  /* border: 2px solid yellow; */
+  display: block;
+  width: 41%;
+  margin: 25px auto;
+}
+
+.right {
+  display: inline-block;
+  /* border: 2px solid green; */
+  position: absolute;
+  right: 32px;
+  top: 20px;
+  margin: -11px;
+}
+
+.navbar {
+  display: inline-block;
+
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+
+}
+.navbar li a:hover{
+    color: rgba(241, 238, 9, 0.993);
+    
+}
+
+.navbar li a {
+  font-size: larger;
+  color:black;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  color: grey;
+  text-decoration: underline;
+}
+
+.btn {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 1vw ;
+  background-color: black;
+  border-radius: 15px;
+  border: 0.5px solid grey;
+  color: white;
+  margin: 0px 6px;
+  padding: 4px 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(160, 158, 158)
+}
+
+div.enterance{
+  background-color: rgb(238, 198, 146);
+  /* background: url(desktop.jpg) no-repeat; */
+  position:absolute;
+  
+
+  height:86vh;
+  width : 100vw;
+  background-position: center;
+  /* border: 2% solid rgb(143, 108, 108); */
+  background-size : cover ;
+  top:14%;
+ display: block;
+  /* border: 1px solid black; */
+}
+
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+.button{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(30, 30, 80);
+  font-family: 'Dancing Script', cursive; 
+  position: absolute; 
+  font-size: 2vw;
+  background: transparent;
+  cursor: pointer;
+  border-color: transparent;
+  transition: transform .2s; 
+}
+
+.button:hover{
+  text-decoration: none;
+  box-shadow: black;
+  font-size:x-large;
+  transform: scale(1.5); 
+}
+.button:active {
+  text-decoration-color: #ffebcd;
+  transform: translateY(4px);
+  
+}
+
+
+.color{
+  background-color: antiquewhite;
+  border: 1%;
+  border-color: blue;
+}
+#doctors{
+  top: 79%;
+  left: 16%;
+  width: 15%;
+  height: 20%;
+}
+#reviews{
+  top: 77.5%;
+  left: 71%;
+  width: 10%;
+  height: 22%;
+ 
+}
+#services{
+  top: 75%;
+  left: 34.5%;
+  width: 10%;
+  height: 20%;
+  
+}
+#enquiry{
+  top: 74%;
+  left: 51.6%;
+  width: 10%;
+  height: 20%; 
+}
+.locallink{
+  position:absolute;
+  color: bisque;
+  text-decoration: none;
+  cursor: pointer; 
+  transition: transform .2s; 
+}
+.locallink:hover{
+  font-size:x-large;
+  transform: scale(1.5); 
+}
+#hv1{
+  left: 8%;
+  top: 39%;
+}
+#hv2{
+  left:81%;
+  top:39%;
+}
+
+
+.footer{
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* opacity: .8; */
+  
+ 
+  bottom: -9vh;
+  padding-top: 3px;
+  /* transform: translateY(4px); */
+
+}
+
+.footer a{
+  flex-grow: .5;
+
+}
+
+.footer .fa{
+  font-size: 3vw;
+  color:rgb(58, 3, 3);
+
+}
+
+.footer a:hover{
+  background-color: blanchedalmond;
+  border-radius: 10%;
+}
+#grad1 {
+  height: 70px;
+  background-color:#c48412; /* For browsers that do not support gradients */
+  background-image: linear-gradient(180deg, blanchedalmond,transparent);
+}
+
+.icon-bar {
+  position: absolute;
+  top: 25%;
+  width:5.5%; /* Set a specific width */
+  background-color:blanchedalmond; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display:block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 14px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color:rgb(58, 3, 3); /* White text color */
+  font-size: 2.5vw; /* Increased font-size */
+  transition: transform .2s; 
+}
+
+.icon-bar a:hover {
+  background-color: rgb(248, 247, 247); /* Add a hover color */
+  transform: scale(1.5); 
+}
+
+.active {
+  background-color:rgb(196, 184, 19) ; 
+  color:#f2f5fa;
+  /* Add an active/current color */
+}
+
+
+/* pulse */
+.pulse {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-105, -50%);
+  width: 100px;
+  height: 100px;
+  /* background: #33ff00; */
+  /* border: 2px solid #33ff00; */
+  border-radius: 50%;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 0 36px #45237a, */
+          /* 0 0 0 40px #56ff00; */
+}
+
+.pulse:before,
+.pulse:after {
+  content: '';
+  position: absolute;
+  inset: 20% 48% 62% 43%;;
+  border: 2px solid purple;
+  border-radius: 50%;
+  animation: animate 3s linear infinite;
+}
+
+.pulse:after {
+  animation-delay: 2s;
+}
+
+@keyframes animate {
+  0% {
+      transform: scale(0.7);
+  }
+
+  100% {
+      transform: scale(2.0);
+  }
+}
+
+
+.font1{
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.font2{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,50 @@
+.block{
+    height: 70px;
+    border-top: 2px solid #99dbb9;
+    margin: 0 0 0px;
+    
+    background-color: blanchedalmond;
+}
+.contentarea {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    position: relative;
+}
+
+
+
+
+
+  /* ............................................................... */
+.cont{
+    margin-top: 2%;
+    left:10%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 1%;
+    margin-left:7%;
+    margin-right:4%;
+}
+.imgFrameRight {
+    float: right;
+    margin: 5px 1.8px 10px 10px;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 20%);
+}
+img {
+    border: none;
+}
+p {
+    line-height: 1.625;
+    /* margin: 0 0 15px; */
+}
+body {
+    color: #333;
+    font-family: Open Sans,sans-serif;
+    text-rendering: optimizeLegibility;
+}
+li{
+    margin: 0.5%;
+}

@@ -1,0 +1,21 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+div.enterance{
+  background-color: rgb(238, 198, 146);
+  /* background: url(desktop.jpg) no-repeat; */
+  position:absolute;
+  
+  left: 5%;
+  height:100%;
+  width : 90%;
+  background-position: center;
+  /* border: 2% solid rgb(143, 108, 108); */
+  background-size : cover ;
+  top:14%;
+ display: block;
+  /* border: 1px solid black; */
+}

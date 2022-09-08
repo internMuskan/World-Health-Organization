@@ -1,0 +1,35 @@
+*{
+    margin:0%;
+    padding:0%;
+
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: sandybrown ;
+}
+#administration{
+    top: 27.5%;
+    left: 11.5%;
+}
+
+#laboratory{
+    top: 50%;
+    left: 22%;
+}
+
+#radiology{
+    top: 40%;
+    left: 39%;
+}
+.hosMap{
+    top:20%;
+    position: absolute;
+    left: 10%;
+}
+
+
+.hosMap img{
+    rotate: 90deg;
+}

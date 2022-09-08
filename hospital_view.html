@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="css/page2.css"> 
+    <link rel = "stylesheet" href="css/header.css">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/page2.js"></script>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; /* IE 10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE 10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create two equal columns that sits next to each other */
+        .column {
+          -ms-flex: 50%; /* IE 10 */
+          flex: 50%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+        }
+        
+        /* Style the buttons */
+        .btn {
+          border: none;
+          outline: none;
+          padding: 10px 16px;
+          background-color: #f1f1f1;
+          cursor: pointer;
+          font-size: 18px;
+        }
+        
+        .btn:hover {
+          background-color: #ddd;
+        }
+        
+        .btn.active {
+          background-color: #666;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+  <header>
+    <div class=strip></div>
+    <!-- left box for logo -->
+    <div class="left">
+        <!-- <img src="img/dumbell.jpg" alt=""> -->
+        <div> <h2>MS HOSPITAL</h2></div>
+
+    </div>
+    <!-- mid box for navigation -->
+   
+    
+    <!-- right box for buttons -->
+    <div class="right">
+        <button id="datatime" class="datetime btn">09-09-2021 11:29:39</button>
+        <a href="regis1.html">
+        
+        <button class="btn">Call us Now</button>
+      </a>
+      <a href="mailto:someone@example.com">
+        <button class="btn">Email Us</button>
+      </a>
+    </div>
+</header>
+
+<div class="navbar">
+  <a href="page2.html">Home</a>
+  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">News</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Departments
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Emergency</a>
+      <a href="cardiology.html">Cardiologist</a>
+      <a href="#">Ortheopaedic</a>
+      <a href="#">Gynaecologist</a>
+      <a href="#">Dermetologist</a>
+      <a href="#">Psychiatrist</a>
+      <a href="#">Radiologist</a>
+     
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Doc-Depart
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+        <h2>Mega Menu</h2>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h3>Cardiologist</h3>
+          <a href="#DrKeshav">Dr keshav</a>
+          <a href="#">Dr Rani</a>
+          <a href="#">Dr Meera</a>
+        </div>
+        <div class="column">
+          <h3>Dermetologist</h3>
+          <a href="#">Dr Khumod Alok</a>
+          <a href="#">Dr Deeksha</a>
+          <a href="#">Dr Hinemdra</a>
+        </div>
+        <div class="column">
+          <h3>Category 3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        <div class="column">
+          <h3>Category 3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+  <div class="icon-bar">
+    <a href="page2.html"><i class="fa fa-home"></i></a>
+    <a href="search.html"><i class="fa fa-search"></i></a>
+    <a href="mailto:someone@example.com"><i class="fa fa-envelope"></i></a>
+    <a href="https://goo.gl/maps/fqyjyHDr1EQyXvLS6"><i class="fa fa-globe"></i></a>
+    <a href=" https://twitter.com/Twitter"><i class="fa fa-twitter"></i></a>
+    
+</div>
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h1>Thank you for visiting us</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+  
+  <!-- Photo Grid -->
+  <div class="row"> 
+    <div class="column">
+      <img src="/img/1.jpg" style="width:100%">
+      <img src="/img/2.jpg" style="width:100%">
+      <img src="/img/3.jpg" style="width:100%">
+      <img src="/img/4.jpg" style="width:100%">
+      <img src="/img/5.jpg" style="width:100%">
+      <img src="/img/6.jpg" style="width:100%">
+      <img src="/img/blood.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="/img/labour.jpg" style="width:100%">
+        <img src="/img/doc2.jpg" style="width:100%">
+        <img src="/img/5.jpg" style="width:100%">
+        <img src="/img/4.jpg" style="width:100%">
+        <img src="/img/blood.jpg" style="width:100%">
+        <img src="/img/6.jpg" style="width:100%">
+        <img src="/img/doc7.jpg" style="width:100%">
+    </div>  
+    <div class="column">
+        <img src="/img/1.jpg" style="width:100%">
+        <img src="/img/doc2.jpg" style="width:100%">
+        <img src="/img/3.jpg" style="width:100%">
+        <img src="/img/4.jpg" style="width:100%">
+        <img src="/img/doc5.jpg" style="width:100%">
+        <img src="/img/6.jpg" style="width:100%">
+        <img src="/img/blood.jpg" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="/img/doc1.jpg" style="width:100%">
+        <img src="/img/2.jpg" style="width:100%">
+        <img src="/img/labour.jpg" style="width:100%">
+        <img src="/img/4.jpg" style="width:100%">
+        <img src="/img/doc5.jpg" style="width:100%">
+        <img src="/img/doc3.jpg" style="width:100%">
+        <img src="/img/doc7.jpg" style="width:100%">
+    </div>
+  </div>
+  
+  <script>
+  // Get the elements with class="column"
+  var elements = document.getElementsByClassName("column");
+  
+  // Declare a loop variable
+  var i;
+  
+  // Full-width images
+  function one() {
+      for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "100%";  // IE10
+      elements[i].style.flex = "100%";
+    }
+  }
+  
+  // Two images side by side
+  function two() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "50%";  // IE10
+      elements[i].style.flex = "50%";
+    }
+  }
+  
+  // Four images side by side
+  function four() {
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "25%";  // IE10
+      elements[i].style.flex = "25%";
+    }
+  }
+  
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("myHeader");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+</body>
+</html>

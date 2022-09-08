@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/bookAppointment.css">
+    <link rel="stylesheet" href="css/diffServices.css">
+    <script src="js/bookappointment.js"></script>
+</head>
+<body>
+    <h1 style="text-align: center;"> Book appointment</h1>
+    <h2 style="text-align: center;"> (Please enter your details carefully)</h2>
+    <form action="Appointment.php" method="post">
+        <div class ="elem-group">
+            <label for="doctorname">Doctor name</label>
+            
+            <select id="room-selection" name="room_preference" required>
+                <option value="">Select your doctor for appointment from the List</option>
+                <option value="connecting">Dr. Ashok seth</option>
+                <option value="adjoining">Dr. JP Aggarwal</option>
+                <option value="adjacent">Dr. dushiyant</option>
+            </select>
+        </div>
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="paitent_name" placeholder="tina sharma" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="paitent_email" placeholder="tina.sharma@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="paitent_phone" placeholder="981-112-3982"pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <h3>Please check your age</h3>
+        <div class="check box">
+            <input type="radio" name="v1" value="Bike">
+            <label for="vehicle1"> child (age below or equal to 18)</label><br>
+            <input type="radio"  name="v1" value="Car">
+            <label for="vehicle2"> adult (age above 18)</label><br>
+        </div>
+        <div class="elem-group inlined">
+          <label for="checkin-date">Check-in your preferrable Date</label>
+          <input type="date" id="checkin-date" name="checkin" required>
+          <input type="date" id="checkin-date" name="checkin" required>
+          <input type="date" id="checkin-date" name="checkin" required>
+        </div>
+        
+        
+        <hr>
+        <div class="elem-group">
+          <label for="message">Prevailing illness or Medical history</label>
+          <textarea id="message" name="paitent_message" placeholder="A Short description about your condition or any premedical care done" required></textarea>
+        </div>
+        <div class="elem-group">
+            <label for="message"></label>
+            <textarea id="message" name="paitent_message" placeholder="Tell us anything else that might be important." required></textarea>
+        </div>
+        <button type="submit">Confirm</button>
+      </form>
+</body>
+</html>

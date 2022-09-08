@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/rand.css">
+  <link rel="stylesheet" href="css/page2.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/services.js"></script>
+  <script src="js/page2.js"></script>
+</head>
+
+<body onload="showSlides()">
+  <!-- header -->
+  <header>
+    <div class=strip></div>
+    <!-- left box for logo -->
+    <div class="left">
+      <!-- <img src="img/dumbell.jpg" alt=""> -->
+      <div>
+        <h2>MS HOSPITAL</h2>
+      </div>
+
+    </div>
+    <!-- mid box for navigation -->
+
+
+    <!-- right box for buttons -->
+    <div class="right">
+      <button id="datatime" class="datetime btn">09-09-2021 11:29:39</button>
+      <a href="regis1.html">
+
+        <button class="btn">Call us Now</button>
+      </a>
+      <a href="mailto:someone@example.com">
+        <button class="btn">Email Us</button>
+      </a>
+    </div>
+  </header>
+
+
+  <div class="navbar">
+    <a href="page2.html">Home</a>
+    <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">News</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Departments
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Emergency</a>
+        <a href="cardiology.html">Cardiologist</a>
+        <a href="#">Ortheopaedic</a>
+        <a href="#">Gynaecologist</a>
+        <a href="#">Dermetologist</a>
+        <a href="#">Psychiatrist</a>
+        <a href="#">Radiologist</a>
+       
+      </div>
+    </div>
+    
+    
+  </div>
+
+
+  <div class="icon-bar">
+    <a href="page2.html"><i class="fa fa-home"></i></a>
+    <a href="search.html"><i class="fa fa-search"></i></a>
+    <a href="mailto:someone@example.com"><i class="fa fa-envelope"></i></a>
+    <a href="https://goo.gl/maps/fqyjyHDr1EQyXvLS6"><i class="fa fa-globe"></i></a>
+    <a href=" https://twitter.com/Twitter"><i class="fa fa-twitter"></i></a>
+
+  </div>
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/img1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/img2.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/img1.jpg" style="width:100%">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/img2.jpg" style="width:100%">
+
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+  </div>
+  <!-- <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Chat</h1>
+          
+              <label for="msg"><b>Message</b></label>
+              <textarea placeholder="Type message.." name="msg" required></textarea>
+          
+              <button type="submit" class="btn">Send</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+     -->
+
+  <div class="cont font1">
+    <img src="img/cardioicon.png" alt="Avatar" style="width:10%">
+    <p>
+    <h1>Cardiologist.</h1>
+    </p>
+    <p><b>
+        <h3>Invasive Cardiology Lab:</h3>
+      </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and
+      Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter
+      monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+    <a href="cardiology.html">
+      <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+    </a>
+  </div><br>
+  <div class="cont font1">
+    <img src="img/heart.png" alt="Avatar" style="width:10%">
+    <p>
+    <h1>Emergency.</h1>
+    </p>
+    <p><b>
+        <h3>Invasive Cardiology Lab:</h3>
+      </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and
+      Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter
+      monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+     <a href="cardiology.html">
+      <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+    </a>
+  </div>'
+
+  <br>
+  <div class="cont font1">
+    <img src="img/gyenec_icon.png" alt="Avatar" style="width:10%">
+    <p>
+    <h1>Neonatology.</h1>
+    </p>
+    <p><b>
+        <h3>Invasive Cardiology Lab:</h3>
+      </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and
+      Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter
+      monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+    <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+  </div>
+  <br>
+  <div class="cont font1">
+    <img src="img/pediatrician_icon.png" alt="Avatar" style="width:10%"">
+            <p><h1>Pediatrician.</h1></p>
+            <p><b><h3>Invasive Cardiology Lab:</h3> </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+            
+            <a href="cardiology.html">
+              <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+            </a>
+  </div>
+  <br>
+  <div class="cont font1">
+    <img src="img/blood-bankicon.png" alt="Avatar" style="width:10%">
+    <p>
+    <h1>Blood-Bank.</h1>
+    </p>
+    <p><b>
+        <h3>Invasive Cardiology Lab:</h3>
+      </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and
+      Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter
+      monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+      <a href="cardiology.html">
+        <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+      </a>
+  </div>
+  <br>
+  <div class="cont font1">
+    <img src="img/cardioicon.png" alt="Avatar" style="width:10%">
+    <p>
+    <h1>Cardiologist.</h1>
+    </p>
+    <p><b>
+        <h3>Invasive Cardiology Lab:</h3>
+      </b> <br>It includes 12 channel Electrocardiography, Case Computerised Tread Mill (GE-Marquette), GE Vivid 3 and
+      Philips Envisor-C Color Doppler with Stress Echo & Tranesophageal Echocardiography, Telemetry, 24 hour Holter
+      monitoring (GE) and Enhanced External Counter Pulsation (EECP)..</p>
+     <a href="cardiology.html">
+      
+      <p> <button class="hero-btn" style="font-size: medium;width: 15%;margin-top: .5%;">Click Here</button></p>
+
+    </a>
+  </div>
+
+
+
+</body>
+
+</html>

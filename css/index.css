@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.welcomeScreen{
+  position: absolute;
+  background: url(../img/welcome.jpg) no-repeat   ;
+  height:100%;
+  width : 100%;
+  border: 2px solid black;
+  background-size : cover ;
+}
+
+div.welcome{
+    position: relative;
+    background-color: #a3a0a0;
+    border: 1px solid black;
+    opacity: 0.5;
+    height: 10%;
+    width:50%;
+    top:80%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  div.welcome p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+  }
+  div.welcome{
+    font-size:3vw;
+    opacity: .6;
+    
+  }
+  div.welcome :hover{
+    border-radius: 2%;
+
+  }
+  a:link {
+    color: red;
+    font-size:4vw;
+    
+  }
+  
+  /* visited link */
+  a:visited {
+    color:black;
+    font-size:3vw;
+  }
+  
+
+  a:hover {
+    color: yellow;
+    font-size: 4vw;
+    
+    
+  }
+  
